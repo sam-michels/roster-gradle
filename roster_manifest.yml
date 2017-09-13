@@ -8,4 +8,5 @@ applications:
     SPRING_PROFILES_ACTIVE: dev
   services:
   - mydb
+  - config-get
   stack: cflinuxfs2
