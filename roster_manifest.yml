@@ -5,8 +5,8 @@ applications:
   disk_quota: 1024M
   buildpack: java_buildpack
   env:
-    SPRING_PROFILES_ACTIVE: dev
+    SPRING_PROFILES_ACTIVE: cloud
   services:
-  - mydb
+  - rosterdb
   - config-get
   stack: cflinuxfs2
